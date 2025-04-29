@@ -1,0 +1,5 @@
+module github.com/AfRpEng/gorder-v2/stock
+
+go 1.24.1
+
+replace github.com/AfRpEng/gorder-v2/common => ../common
