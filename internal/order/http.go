@@ -1,8 +1,13 @@
 package main
 
-import "github.com/gin-gonic/gin"
+import (
+	"github.com/AfRpEng/goorder-v2/order/app"
+	"github.com/gin-gonic/gin"
+)
 
-type HTTPServer struct{}
+type HTTPServer struct {
+	app app.Application
+}
 
 func (s HTTPServer) GetCustomerCustomerIDOrders(c *gin.Context, customerID string) {
 

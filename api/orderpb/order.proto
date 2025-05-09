@@ -1,6 +1,6 @@
 syntax = "proto3";
 package orderpb;
-option go_package="github.com/AfRpEng/goorder-v2/internal/common/genproto/orderpb";
+option go_package="github.com/AfRpEng/goorder-v2/common/genproto/orderpb";
 import "google/protobuf/empty.proto";
 service OrderService{
   rpc CreatOrder(CreatOrderRequest) returns (google.protobuf.Empty);

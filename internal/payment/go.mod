@@ -1,4 +1,4 @@
-module github.com/AfRpEng/gorder-v2/payment
+module github.com/AfRpEng/goorder-v2/payment
 
 go 1.24.1
 
